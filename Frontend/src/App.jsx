@@ -1,17 +1,19 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './home/Home';
+import Courses from './courses/Courses'; 
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Banner />
-    <Footer />
-
+    <div className='dark:bg-slate-900 dark:text-white'>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/course" element={<Courses />} />
+      </Routes>
+    </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

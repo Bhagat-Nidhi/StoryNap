@@ -1,5 +1,7 @@
 import React from 'react'
-import image1 from "../../public/image1.jpg"
+
+
+import image1 from "/image1.jpg"
 
 function Banner() {
   return (
