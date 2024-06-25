@@ -46,9 +46,9 @@ function Freebook2() {
   return (
     <>
     <div className="max-w-screen-2xl mx-auto md:px-20 px-4 ">
-    <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+    <h1 className="font-bold text-3xl pb-2">Access Our Free Library</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit obcaecati reprehenderit quidem eos beatae itaque asperiores! Consectetur, labore nam eius qui rem architecto laborum ipsam saepe pariatur distinctio fugit.
+    Unlock the Gateway to Literature with Our Free Offered Books. From Classics to Contemporary Reads, There’s Something for Every Reader.
     </p>
   </div>
     <div>
